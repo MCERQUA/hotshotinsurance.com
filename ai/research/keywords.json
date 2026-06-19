@@ -1,0 +1,281 @@
+{
+  "niche": "Hotshot Trucking Insurance",
+  "domain": "hotshotinsurance.com",
+  "researched": "2026-06-19",
+  "data_source": "DataForSEO API (keyword_suggestions, google_ads/search_volume, bulk_keyword_difficulty)",
+  "primary_keywords": [
+    {
+      "keyword": "insurance for hotshot trucking",
+      "volume": 590,
+      "cpc": 30.81,
+      "difficulty": 0,
+      "competition": "LOW",
+      "intent": "commercial"
+    },
+    {
+      "keyword": "hotshot trucking insurance",
+      "volume": 480,
+      "cpc": 40.46,
+      "difficulty": 0,
+      "competition": "MEDIUM",
+      "intent": "commercial"
+    },
+    {
+      "keyword": "hotshot truck insurance",
+      "volume": 480,
+      "cpc": 40.46,
+      "difficulty": 0,
+      "competition": "MEDIUM",
+      "intent": "commercial"
+    },
+    {
+      "keyword": "hotshot truckers insurance",
+      "volume": 480,
+      "cpc": 40.46,
+      "difficulty": 0,
+      "competition": "MEDIUM",
+      "intent": "commercial"
+    },
+    {
+      "keyword": "hotshot insurance",
+      "volume": 320,
+      "cpc": 44.71,
+      "difficulty": 0,
+      "competition": "HIGH",
+      "intent": "commercial"
+    },
+    {
+      "keyword": "bobtail insurance",
+      "volume": 1600,
+      "cpc": 18.70,
+      "difficulty": 0,
+      "competition": "MEDIUM",
+      "intent": "commercial",
+      "notes": "Highest-volume term in niche; coverage-specific"
+    },
+    {
+      "keyword": "occupational accident insurance trucking",
+      "volume": 260,
+      "cpc": 24.14,
+      "difficulty": 0,
+      "competition": "MEDIUM",
+      "intent": "commercial"
+    }
+  ],
+  "secondary_keywords": [
+    {
+      "keyword": "non cdl hotshot insurance cost",
+      "volume": 210,
+      "cpc": 16.15,
+      "difficulty": 0,
+      "competition": "LOW",
+      "intent": "commercial"
+    },
+    {
+      "keyword": "hotshot insurance cost",
+      "volume": 170,
+      "cpc": 17.95,
+      "difficulty": 0,
+      "competition": "LOW",
+      "intent": "commercial"
+    },
+    {
+      "keyword": "hotshot insurance quotes",
+      "volume": 140,
+      "cpc": 54.71,
+      "difficulty": 0,
+      "competition": "LOW",
+      "intent": "commercial"
+    },
+    {
+      "keyword": "hotshot insurance quote",
+      "volume": 140,
+      "cpc": 54.71,
+      "difficulty": 0,
+      "competition": "LOW",
+      "intent": "commercial"
+    },
+    {
+      "keyword": "commercial insurance for hotshot trucking",
+      "volume": 90,
+      "cpc": 41.36,
+      "difficulty": 0,
+      "competition": "MEDIUM",
+      "intent": "commercial"
+    },
+    {
+      "keyword": "hotshot truck insurance cost",
+      "volume": 70,
+      "cpc": 14.45,
+      "difficulty": 0,
+      "competition": "MEDIUM",
+      "intent": "commercial"
+    },
+    {
+      "keyword": "hotshot trucking insurance cost",
+      "volume": 70,
+      "cpc": 14.45,
+      "difficulty": 0,
+      "competition": "MEDIUM",
+      "intent": "commercial"
+    },
+    {
+      "keyword": "commercial hotshot insurance",
+      "volume": 50,
+      "cpc": 60.52,
+      "difficulty": 0,
+      "competition": "LOW",
+      "intent": "commercial"
+    },
+    {
+      "keyword": "insurance for hotshot drivers",
+      "volume": 40,
+      "cpc": 16.78,
+      "difficulty": 0,
+      "competition": "LOW",
+      "intent": "commercial"
+    },
+    {
+      "keyword": "non cdl hotshot insurance",
+      "volume": 40,
+      "cpc": 28.98,
+      "difficulty": 0,
+      "competition": "LOW",
+      "intent": "commercial"
+    },
+    {
+      "keyword": "hotshot cargo insurance",
+      "volume": 20,
+      "cpc": 98.32,
+      "difficulty": 23,
+      "competition": "HIGH",
+      "intent": "commercial"
+    },
+    {
+      "keyword": "hotshot trucking insurance requirements",
+      "volume": 20,
+      "cpc": 61.35,
+      "difficulty": 0,
+      "competition": "MEDIUM",
+      "intent": "commercial"
+    },
+    {
+      "keyword": "non cdl hot shot trucking insurance",
+      "volume": 30,
+      "cpc": null,
+      "difficulty": 0,
+      "competition": "LOW",
+      "intent": "commercial"
+    }
+  ],
+  "long_tail": [
+    {
+      "keyword": "how much is hotshot insurance",
+      "volume": 70,
+      "cpc": 28.39,
+      "difficulty": 0,
+      "intent": "informational"
+    },
+    {
+      "keyword": "how much is insurance for hotshot trucking",
+      "volume": 40,
+      "cpc": 12.71,
+      "difficulty": 0,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "non cdl hotshot insurance requirements",
+      "volume": 30,
+      "cpc": 5.35,
+      "difficulty": 0,
+      "intent": "informational"
+    },
+    {
+      "keyword": "best insurance for hotshot trucking",
+      "volume": 30,
+      "cpc": 80.01,
+      "difficulty": 0,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "how much does hotshot insurance cost",
+      "volume": 20,
+      "cpc": 7.86,
+      "difficulty": 0,
+      "intent": "informational"
+    },
+    {
+      "keyword": "how much is hotshot trucking insurance",
+      "volume": 20,
+      "cpc": 6.43,
+      "difficulty": 0,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "best hotshot trucking insurance",
+      "volume": 20,
+      "cpc": 9.79,
+      "difficulty": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "why is hotshot insurance so expensive",
+      "volume": 10,
+      "cpc": null,
+      "difficulty": 0,
+      "intent": "informational"
+    },
+    {
+      "keyword": "hotshot insurance companies",
+      "volume": 10,
+      "cpc": null,
+      "difficulty": 0,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "hotshot insurance texas",
+      "volume": 10,
+      "cpc": 18.89,
+      "difficulty": 4,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "hotshot insurance florida",
+      "volume": 10,
+      "cpc": null,
+      "difficulty": 42,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "what type of insurance do you need for hotshot trucking",
+      "volume": 10,
+      "cpc": 13.39,
+      "difficulty": null,
+      "intent": "informational"
+    },
+    {
+      "keyword": "how much is hotshot insurance per month",
+      "volume": 10,
+      "cpc": 6.86,
+      "difficulty": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "non cdl hotshot insurance cost texas",
+      "volume": 10,
+      "cpc": 137.11,
+      "difficulty": null,
+      "intent": "commercial"
+    }
+  ],
+  "paa_questions": [
+    "How much does hotshot trucking insurance cost?",
+    "What type of insurance do you need for hotshot trucking?",
+    "Do you need a CDL to get hotshot trucking insurance?",
+    "What is bobtail insurance and do hotshot truckers need it?",
+    "Why is hotshot insurance so expensive?",
+    "How much cargo insurance do I need for hotshot trucking?",
+    "What is occupational accident insurance for truckers?",
+    "What are the insurance requirements for hotshot trucking?"
+  ]
+}

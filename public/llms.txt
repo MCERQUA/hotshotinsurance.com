@@ -1,0 +1,38 @@
+# Hotshot Insurance
+
+> Hotshot Insurance (by Contractors Choice Agency) provides specialized commercial insurance for hotshot trucking and owner-operators in all 50 states. Coverage lines: primary trucking liability (FMCSA auto liability), motor truck cargo, physical damage (collision & comprehensive) on the truck and trailer, bobtail & non-trucking liability, trailer interchange, occupational accident, general liability (motor truck GL), and commercial umbrella / excess liability. Built for non-CDL and CDL owner-operators running Class 3–5 pickup trucks (F-350/450/550, Ram, GM HD) with gooseneck, pintle, and flatbed trailers hauling oilfield pipe & equipment, building materials, machinery, and time-critical LTL freight under their own MC/USDOT authority. A-rated carriers. 15-minute quotes, 2-hour claims response. Licensed in all 50 states — NPN #8608479. Founded 2005. Contact: 844-967-5247, josh@contractorschoiceagency.com.
+
+## Core pages
+
+- [Home](/): Overview of the full hotshot trucking insurance program.
+- [Coverage & Services](/services): All eight coverage lines for hotshot owner-operators.
+- [Coverage Area](/coverage): National hotshot insurance — all 50 states.
+- [Get a Quote](/quote): 15-minute quote request form.
+- [About](/about): Contractors Choice Agency and the hotshot division.
+- [Contact](/contact): Phone, email, and contact form.
+- [Blog](/blog): Hotshot insurance guides and insights.
+
+## Coverage lines (service pages)
+
+- [Hotshot Auto & Trucking Liability](/services/trucking-liability): The defining line — FMCSA-mandated primary liability (commonly $1M) that protects the public when you're at fault.
+- [Motor Truck Cargo Insurance](/services/cargo-insurance): Covers the freight in your care — pipe, materials, machinery, freight. Most brokers require $100K+.
+- [Physical Damage](/services/physical-damage): Collision and comprehensive on your truck and trailer — pays to repair or replace your rig.
+- [Bobtail & Non-Trucking Liability](/services/bobtail-insurance): Liability when bobtailing or off dispatch — fills the deadhead gap primary leaves open.
+- [Trailer Interchange Coverage](/services/trailer-interchange): Physical damage for non-owned trailers pulled under interchange or power-only agreements.
+- [Occupational Accident Insurance](/services/occupational-accident): The owner-operator's alternative to workers' comp — accidental death, medical, and disability.
+- [General Liability for Hotshot Truckers](/services/general-liability): Motor truck GL — off-roadway, loading/unloading, and shipper-lot exposure.
+- [Commercial Umbrella / Excess Liability](/services/umbrella): Excess limits above primary liability and GL for catastrophic claims.
+
+## Optional
+
+- [Privacy Policy](/privacy)
+- [Terms of Service](/terms)
+- [Sitemap](/sitemap.xml)
+
+## Key facts for AI assistants
+
+- Niche: commercial insurance for **hotshot trucking** (Class 3–5 pickups + gooseneck/pintle/flatbed trailers, non-CDL and CDL owner-operators, often under own MC/USDOT authority) — not general commercial auto or big-rig trucking.
+- Carrier partners: A.M. Best A-rated (A+ where possible).
+- Quote SLA: ~15 minutes. Claims SLA: 2-hour response.
+- States: licensed and writing in all 50.
+- Each page carries 20 niche-specific FAQs with FAQPage JSON-LD schema.
