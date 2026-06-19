@@ -38,15 +38,19 @@ export default function ServicesPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }} />
       <Navbar />
       <main>
-        <section className="relative bg-warm-radial pt-32 pb-16 md:pt-40 md:pb-20">
-          <div className="container-tight text-center">
+        <section className="relative pt-32 pb-16 md:pt-40 md:pb-20 overflow-hidden">
+          <div className="absolute inset-0 z-0">
+            <img src="/images/page-hero-bg.jpg" alt="" className="w-full h-full object-cover object-center" loading="eager" aria-hidden="true" />
+            <div className="absolute inset-0 bg-espresso/75" />
+          </div>
+          <div className="container-tight text-center relative z-10">
             <FadeIn>
-              <span className="pill-clay">Coverage lines</span>
-              <h1 className="mt-5 font-heading font-extrabold text-espresso text-4xl md:text-5xl lg:text-6xl leading-[1.05] tracking-tight">
+              <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/15 text-cream text-xs font-heading font-bold uppercase tracking-[0.18em] border border-white/25">Coverage lines</span>
+              <h1 className="mt-5 font-heading font-extrabold text-white text-4xl md:text-5xl lg:text-6xl leading-[1.05] tracking-tight">
                 {COPY.servicesPage.h1Lead}{" "}
-                <span className="bg-gradient-to-r from-clay via-clay-light to-gold-dark bg-clip-text text-transparent">{COPY.servicesPage.h1Highlight}</span>.
+                <span className="text-gold">{COPY.servicesPage.h1Highlight}</span>.
               </h1>
-              <p className="mt-6 lead max-w-2xl mx-auto">{COPY.servicesPage.lead}</p>
+              <p className="mt-6 text-lg md:text-xl text-cream/90 leading-relaxed max-w-2xl mx-auto">{COPY.servicesPage.lead}</p>
             </FadeIn>
           </div>
         </section>

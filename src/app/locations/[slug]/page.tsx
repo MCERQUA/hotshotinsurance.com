@@ -68,27 +68,31 @@ export default async function LocationPage({ params }: Props) {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <Navbar />
       <main>
-        <section className="relative bg-warm-radial pt-32 pb-16 md:pt-40 md:pb-20">
-          <div className="container-wide">
+        <section className="relative pt-32 pb-16 md:pt-40 md:pb-20 overflow-hidden">
+          <div className="absolute inset-0 z-0">
+            <img src="/images/page-hero-bg.jpg" alt="" className="w-full h-full object-cover object-center" loading="eager" aria-hidden="true" />
+            <div className="absolute inset-0 bg-espresso/75" />
+          </div>
+          <div className="container-wide relative z-10">
             <FadeIn>
-              <Link href="/coverage" className="inline-flex items-center gap-1.5 text-sm font-heading font-semibold text-clay hover:gap-2.5 transition-all mb-6"><ArrowLeft className="h-4 w-4" />Coverage area</Link>
+              <Link href="/coverage" className="inline-flex items-center gap-1.5 text-sm font-heading font-semibold text-cream/70 hover:text-cream hover:gap-2.5 transition-all mb-6"><ArrowLeft className="h-4 w-4" />Coverage area</Link>
             </FadeIn>
             <div className="grid lg:grid-cols-12 gap-10 items-center">
               <FadeIn className="lg:col-span-7">
-                <span className="pill-clay"><MapPin className="h-3.5 w-3.5" />{loc.name} · {loc.region}</span>
-                <h1 className="mt-4 font-heading font-extrabold text-espresso text-4xl md:text-5xl leading-[1.08] tracking-tight">
+                <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/15 text-cream text-xs font-heading font-bold uppercase tracking-[0.18em] border border-white/25"><MapPin className="h-3.5 w-3.5" />{loc.name} · {loc.region}</span>
+                <h1 className="mt-4 font-heading font-extrabold text-white text-4xl md:text-5xl leading-[1.08] tracking-tight">
                   {SITE.name} —{" "}
-                  <span className="bg-gradient-to-r from-clay via-clay-light to-gold-dark bg-clip-text text-transparent">{loc.name}</span>
+                  <span className="text-gold">{loc.name}</span>
                 </h1>
-                <p className="mt-5 lead max-w-2xl">{loc.blurb}</p>
+                <p className="mt-5 text-lg text-cream/90 leading-relaxed max-w-2xl">{loc.blurb}</p>
                 <div className="mt-7 flex flex-col sm:flex-row gap-3">
                   <Link href="/quote" className="btn-primary">Get a {loc.name} quote<ArrowRight className="h-5 w-5" /></Link>
-                  <a href={SITE.phoneHref} className="btn-secondary"><Phone className="h-5 w-5" />{SITE.phone}</a>
+                  <a href={SITE.phoneHref} className="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-full bg-white/10 text-cream font-heading font-semibold text-base border-2 border-white/30 hover:bg-white/20 transition-all duration-200"><Phone className="h-5 w-5" />{SITE.phone}</a>
                 </div>
               </FadeIn>
 
               <FadeIn direction="left" className="lg:col-span-5">
-                <div className="rounded-t-[10rem] rounded-b-3xl overflow-hidden border-4 border-white shadow-warm-lg">
+                <div className="rounded-t-[10rem] rounded-b-3xl overflow-hidden border-4 border-white/30 shadow-warm-lg">
                   <img src="/images/coverage.jpg" alt={`Hotshot trucking in ${loc.name}`} className="w-full h-[300px] md:h-[360px] object-cover" loading="lazy" />
                 </div>
               </FadeIn>
