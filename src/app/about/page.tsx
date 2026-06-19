@@ -34,22 +34,26 @@ export default function AboutPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }} />
       <Navbar />
       <main>
-        <section className="relative bg-warm-radial pt-32 pb-16 md:pt-40 md:pb-20">
-          <div className="container-wide grid lg:grid-cols-2 gap-12 items-center">
+        <section className="relative pt-32 pb-16 md:pt-40 md:pb-20 overflow-hidden">
+          <div className="absolute inset-0 z-0">
+            <img src="/images/page-hero-bg.jpg" alt="" className="w-full h-full object-cover object-center" loading="eager" aria-hidden="true" />
+            <div className="absolute inset-0 bg-espresso/75" />
+          </div>
+          <div className="container-wide grid lg:grid-cols-2 gap-12 items-center relative z-10">
             <FadeIn>
-              <span className="pill-clay">About us</span>
-              <h1 className="mt-5 font-heading font-extrabold text-espresso text-4xl md:text-5xl lg:text-6xl leading-[1.05] tracking-tight">
+              <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/15 text-cream text-xs font-heading font-bold uppercase tracking-[0.18em] border border-white/25">About us</span>
+              <h1 className="mt-5 font-heading font-extrabold text-white text-4xl md:text-5xl lg:text-6xl leading-[1.05] tracking-tight">
                 {COPY.about.h1Lead}{" "}
-                <span className="bg-gradient-to-r from-clay via-clay-light to-gold-dark bg-clip-text text-transparent">{COPY.about.h1Highlight}</span>.
+                <span className="text-gold">{COPY.about.h1Highlight}</span>.
               </h1>
-              <p className="mt-6 lead">{COPY.about.lead}</p>
+              <p className="mt-6 text-lg text-cream/90 leading-relaxed">{COPY.about.lead}</p>
               <div className="mt-7 flex flex-col sm:flex-row gap-3">
                 <Link href="/quote" className="btn-primary">Get a quote <ArrowRight className="h-5 w-5" /></Link>
-                <Link href="/contact" className="btn-secondary">Talk to our team</Link>
+                <Link href="/contact" className="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-full bg-white/10 text-cream font-heading font-semibold text-base border-2 border-white/30 hover:bg-white/20 transition-all duration-200">Talk to our team</Link>
               </div>
             </FadeIn>
             <FadeIn direction="left">
-              <div className="rounded-t-[12rem] rounded-b-3xl overflow-hidden border-4 border-white shadow-warm-lg">
+              <div className="rounded-t-[12rem] rounded-b-3xl overflow-hidden border-4 border-white/30 shadow-warm-lg">
                 <img src="/images/about.jpg" alt={COPY.about.imageAlt} className="w-full h-[360px] md:h-[440px] object-cover" loading="lazy" />
               </div>
             </FadeIn>

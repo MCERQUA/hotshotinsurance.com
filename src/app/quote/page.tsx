@@ -52,15 +52,19 @@ export default function QuotePage() {
     <>
       <Navbar />
       <main>
-        <section className="relative bg-warm-radial pt-32 pb-20 md:pt-40 md:pb-28">
-          <div className="container-wide">
+        <section className="relative pt-32 pb-20 md:pt-40 md:pb-28 overflow-hidden">
+          <div className="absolute inset-0 z-0">
+            <img src="/images/page-hero-bg.jpg" alt="" className="w-full h-full object-cover object-center" loading="eager" aria-hidden="true" />
+            <div className="absolute inset-0 bg-espresso/75" />
+          </div>
+          <div className="container-wide relative z-10">
             <FadeIn className="text-center max-w-2xl mx-auto mb-12">
-              <span className="pill-clay"><ShieldCheck className="h-3.5 w-3.5" /> Free quote</span>
-              <h1 className="mt-5 font-heading font-extrabold text-espresso text-4xl md:text-5xl lg:text-6xl leading-[1.05] tracking-tight">
+              <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/15 text-cream text-xs font-heading font-bold uppercase tracking-[0.18em] border border-white/25"><ShieldCheck className="h-3.5 w-3.5" /> Free quote</span>
+              <h1 className="mt-5 font-heading font-extrabold text-white text-4xl md:text-5xl lg:text-6xl leading-[1.05] tracking-tight">
                 {COPY.quote.h1Lead}{" "}
-                <span className="bg-gradient-to-r from-clay via-clay-light to-gold-dark bg-clip-text text-transparent">{COPY.quote.h1Highlight}</span>
+                <span className="text-gold">{COPY.quote.h1Highlight}</span>
               </h1>
-              <p className="mt-5 lead">{COPY.quote.lead}</p>
+              <p className="mt-5 text-lg md:text-xl text-cream/90 leading-relaxed">{COPY.quote.lead}</p>
             </FadeIn>
 
             <div className="grid lg:grid-cols-3 gap-8">
